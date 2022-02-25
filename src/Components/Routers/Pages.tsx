@@ -10,7 +10,7 @@ const routes = [
     element: <Home />,
   },
   {
-    path: "/works",
+    path: "/videos",
     exact: false,
     element: <Works />,
   },

@@ -2,17 +2,12 @@ import React, { useEffect, useState } from "react";
 import MenuDrawer from "./MenuDrawer/Menu";
 import "./SideMenu.scss";
 import { useLocation } from "react-router-dom";
-import i18n from "i18next";
+
 const SideMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [language, setLanguage] = useState(true);
   const [visible, setVisible] = useState(false);
   const [changeColor, setChangeColor] = useState(false);
   const param = useLocation();
-  const changeLanguage = (value: any) => {
-    value === "en" ? setLanguage(true) : setLanguage(false);
-    i18n.changeLanguage(value);
-  };
 
   const showDrawer = () => {
     setVisible(!visible);
@@ -24,7 +19,7 @@ const SideMenu = () => {
     if (
       param.pathname === "/contact" ||
       param.hash === "#fourthPage" ||
-      param.pathname === "/works"
+      param.pathname === "/videos"
     ) {
       setChangeColor(true);
     } else {
@@ -46,20 +41,6 @@ const SideMenu = () => {
         <div className="sidemenu-line-2 sidemenu-line"></div>
       </div>
 
-      <div className={`language`}>
-        <span
-          className={language ? "active" : ""}
-          onClick={() => changeLanguage("en")}
-        >
-          EN
-        </span>
-        <span
-          className={language ? "" : "active"}
-          onClick={() => changeLanguage("kr")}
-        >
-          KR
-        </span>
-      </div>
       <MenuDrawer visible={visible} showDrawer={showDrawer} />
     </div>
   );

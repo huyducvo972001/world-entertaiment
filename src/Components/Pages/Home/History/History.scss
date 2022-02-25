@@ -1,13 +1,14 @@
 .history {
   height: 100vh;
-  background-color: #99dd6e;
+  background-color: #fff;
   .history-container {
     .history-title {
       font-family: "Montserrat-ExtraBold";
-      padding-top: 200px;
+      padding-top: 170px;
       text-align: center;
       font-size: 80px;
-      color: #1b0080;
+      color: #000;
+      text-transform: capitalize;
     }
     .history-box-item {
       margin: auto;
@@ -17,11 +18,11 @@
       .history-item {
         .history-title-year {
           padding: 0px 15px;
-          color: #1b0080;
-          font-size: 35px;
+          color: #000;
+          font-size: 50px;
           margin-bottom: 30px;
           font-family: "Montserrat-ExtraBold";
-          text-align: left;
+          text-align: center;
         }
 
         .history-content {
@@ -71,30 +72,6 @@
         }
       }
     }
-  }
-}
-
-.history-animation {
-  .history-title {
-    animation-name: upToDownHistory;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-  }
-  .history-box-item {
-    animation-name: leftToRightHistory;
-    animation-duration: 2s;
-  }
-}
-
-.history-close {
-  .history-title {
-    animation-name: upToDownClose;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-  }
-  .history-box-item {
-    animation-name: leftToRightClose;
-    animation-duration: 1s;
   }
 }
 

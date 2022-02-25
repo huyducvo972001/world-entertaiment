@@ -3,17 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  &-content {
-    position: absolute;
-    color: #deff72;
-    font-size: 110px;
-    font-family: "Montserrat-SemiBold";
-    top: 36vh;
-    right: 264px;
-    p {
-      margin-bottom: -30px;
-    }
-  }
+
   &-contact {
     color: #fff;
     padding-top: 164px;
@@ -40,99 +30,6 @@
         opacity: 1;
       }
     }
-  }
-}
-%animationRtL {
-  animation-timing-function: ease-in-out;
-  animation-name: rightToLeft;
-}
-
-%animationUtD {
-  animation-name: upToDownFooter;
-  animation-timing-function: ease;
-  animation-duration: 1.5s;
-}
-
-%animationRtLClose {
-  animation-timing-function: ease-in-out;
-  animation-name: rightToLeftClose;
-}
-
-%animationUtDClose {
-  animation-name: upToDownFooterClose;
-  animation-timing-function: ease;
-  animation-duration: 1.5s;
-}
-
-.footer-animation {
-  .footer-contact-item {
-    &:first-child {
-      p {
-        animation-duration: 0.8s;
-        @extend %animationRtL;
-      }
-      span {
-        @extend %animationUtD;
-      }
-    }
-    &:nth-child(2) {
-      p {
-        animation-duration: 1s;
-        @extend %animationRtL;
-      }
-      span {
-        @extend %animationUtD;
-      }
-    }
-    &:last-child {
-      p {
-        animation-duration: 1.2s;
-        @extend %animationRtL;
-      }
-      span {
-        @extend %animationUtD;
-      }
-    }
-  }
-  .footer-content {
-    @extend %animationRtL;
-    animation-duration: 2s;
-  }
-}
-
-.footer-close {
-  .footer-contact-item {
-    &:first-child {
-      p {
-        animation-duration: 0.8s;
-        @extend %animationRtLClose;
-      }
-      span {
-        @extend %animationUtDClose;
-      }
-    }
-    &:nth-child(2) {
-      p {
-        animation-duration: 1s;
-        @extend %animationRtLClose;
-      }
-      span {
-        @extend %animationUtDClose;
-      }
-    }
-    &:last-child {
-      p {
-        animation-duration: 1.2s;
-        @extend %animationRtLClose;
-      }
-      span {
-        @extend %animationUtDClose;
-      }
-    }
-  }
-  .footer-content {
-    @extend %animationRtLClose;
-    animation-duration: 0.5s;
   }
 }
 

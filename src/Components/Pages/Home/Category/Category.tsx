@@ -1,42 +1,89 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Category.scss";
-import on_game_dev_img from "../../../../Assets/Images/on-game-dev-img.png";
-import on_ui_design_img from "../../../../Assets/Images/on-ui-design-img.png";
-import on_si_img from "../../../../Assets/Images/on-si-img.png";
-import on_game_mar_img from "../../../../Assets/Images/on-game-mar-img.png";
-import { useTranslation } from "react-i18next";
+import strategy from "../../../../Assets/Images/strategy.png";
+import vision from "../../../../Assets/Images/vision.png";
+import philosophy from "../../../../Assets/Images/philosophy.png";
+import motto from "../../../../Assets/Images/motto.png";
+import { useLocation } from "react-router-dom";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Power1 } from "gsap/all";
+import bg from "../../../../Assets/Images/category-bg.jpg";
 
+gsap.registerPlugin(ScrollTrigger);
 const Category = () => {
-  const { t } = useTranslation();
-  const data = t("category", { returnObjects: true }) as any;
-  const dataImage = [
-    on_game_dev_img,
-    on_ui_design_img,
-    on_si_img,
-    on_game_mar_img,
+  const data = [
+    {
+      id: 0,
+      name: "Strategy",
+      image: strategy,
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veritatis dicta officia cumque unde itaque repellendus voluptatem, consectetur veniam vero repudiandae id? Voluptate omnis harum molestiae voluptatibus nisi, at aspernatur.",
+    },
+    {
+      id: 1,
+      name: "Vision",
+      image: vision,
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veritatis dicta officia cumque unde itaque repellendus voluptatem, consectetur veniam vero repudiandae id? Voluptate omnis harum molestiae voluptatibus nisi, at aspernatur.",
+    },
+    {
+      id: 2,
+      name: "Philosophy",
+      image: philosophy,
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veritatis dicta officia cumque unde itaque repellendus voluptatem, consectetur veniam vero repudiandae id? Voluptate omnis harum molestiae voluptatibus nisi, at aspernatur.",
+    },
+    {
+      id: 3,
+      name: "Motto",
+      image: motto,
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae veritatis dicta officia cumque unde itaque repellendus voluptatem, consectetur veniam vero repudiandae id? Voluptate omnis harum molestiae voluptatibus nisi, at aspernatur.",
+    },
   ];
+
   const dataCategory = [];
 
   for (let i in data) {
     dataCategory.push({
       id: data[i].id,
       title: data[i].name,
-      image: dataImage[Number(i)],
+      image: data[i].image,
       text: data[i].text,
     });
   }
+  const param = useLocation();
+  useEffect(() => {
+    if (param.hash === "#thirdPage") {
+      gsap.fromTo(
+        [".category-card-0", ".category-card-2"],
+        {
+          opacity: 0,
+          y: -1000,
+        },
+        { opacity: 1, y: 0, duration: 1.2, ease: Power1.easeOut }
+      );
+      gsap.fromTo(
+        [".category-card-1", ".category-card-3"],
+        {
+          opacity: 0,
+          y: 1000,
+        },
+        { opacity: 1, y: 0, duration: 1.2, ease: Power1.easeOut }
+      );
+    }
+  }, [param]);
   return (
-    <div className="category">
+    <div className="category" style={{ backgroundImage: `url(${bg})` }}>
       <div className="category-item">
         {dataCategory.map((item) => (
           <div className="category-card" key={item.id}>
-            <p>{item.title}</p>
-            <div className="category-image">
-              <img src={item.image} alt="" />
-            </div>
-            <div className="category-content">
-              <label>{item.title}</label>
-              <div className="category-content-text">{item.text}</div>
+            <div className={`category-card-${item.id}`}>
+              <p>{item.title}</p>
+              <div className="category-image">
+                <img src={item.image} alt="" />
+              </div>
+              <div className="category-content">
+                <label>{item.title}</label>
+                <div className="category-content-text">{item.text}</div>
+              </div>
             </div>
           </div>
         ))}

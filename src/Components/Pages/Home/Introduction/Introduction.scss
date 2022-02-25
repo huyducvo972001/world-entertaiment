@@ -1,78 +1,52 @@
 .introduction {
   height: 100vh;
-  background-color: #1b0080;
   position: relative;
   overflow: hidden;
-  &-logo {
-    padding-top: 81px;
-    padding-left: 161px;
-    padding-right: 161px;
-    align-items: center;
-    display: flex;
-    color: #99dd6e;
-    justify-content: space-between;
-    font-family: "Montserrat-Medium";
-    font-size: 13px;
-  }
+
   &-bg {
-    &-1 {
-      position: absolute;
-      bottom: -300px;
-      left: 0;
-    }
-    &-2 {
-      position: absolute;
-      top: -300px;
-      left: 651px;
-    }
-    &-3 {
-      position: absolute;
-      top: 154px;
-      left: 1199px;
-    }
-    &-4 {
-      position: absolute;
-      top: 310px;
-      left: 1369px;
-    }
-    &-5 {
-      position: absolute;
-      top: 489px;
-      right: 0;
-    }
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  &-time {
+    position: absolute;
+    bottom: 25%;
+    font-family: "Montserrat-Thin";
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    left: 145px;
   }
   &-text {
-    color: #99dd6e;
-    font-size: 200.5px;
+    color: #fff;
+    font-size: 100px;
     position: absolute;
-    font-family: "Montserrat-Medium";
+    font-family: "Montserrat-Light";
+    top: 40%;
     left: 145px;
-    width: 1100px;
+    width: 100px;
+    transform: translateY(-50%);
     p {
-      line-height: 230px;
+      line-height: 130px;
+      text-transform: uppercase;
+    }
+    img {
+      margin-bottom: 50px;
     }
   }
   &-footer {
     position: absolute;
-    font-family: "Montserrat-Medium";
-    color: #99dd6e;
+    font-family: "Montserrat-Thin";
+    color: #fff;
     left: 145px;
-    bottom: 77px;
+    bottom: -100px;
+    font-size: 150px;
   }
 }
-.introduction-animation {
-  .introduction-text {
-    animation-name: leftToRight;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-  }
-}
-.introduction-close {
-  .introduction-text {
-    animation-name: leftToRightClose;
-    animation-duration: 1.5s;
-  }
-}
+
 @keyframes leftToRightClose {
   0% {
     transform: translateX(0%);

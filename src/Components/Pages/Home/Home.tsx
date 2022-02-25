@@ -22,27 +22,22 @@ const Home = () => {
   const dataHome = [
     {
       hash: "#firstPage",
-      className: "introduction",
       element: <Introduction />,
     },
     {
       hash: "#secondPage",
-      className: "slogan",
       element: <Slogan />,
     },
     {
       hash: "#thirdPage",
-      className: "category",
       element: <Category />,
     },
     {
       hash: "#fourthPage",
-      className: "history",
       element: <History />,
     },
     {
       hash: "#fifthPage",
-      className: "footer",
       element: <Footer />,
     },
   ];
@@ -65,15 +60,7 @@ const Home = () => {
           <>
             {dataHome.map((item, index) => (
               <div className="section" key={index}>
-                <div
-                  className={`${
-                    param.hash === item.hash
-                      ? `${item.className}-animation`
-                      : `${item.className}-close`
-                  }`}
-                >
-                  {item.element}
-                </div>
+                {item.element}
               </div>
             ))}
           </>

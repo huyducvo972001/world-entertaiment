@@ -1,4 +1,5 @@
-import Vimeo from "@u-wave/react-vimeo";
+/* eslint-disable jsx-a11y/iframe-has-title */
+
 import closeIcon from "../Asset/close-icon.png";
 import "./Detail.scss";
 interface DetailProps {
@@ -13,11 +14,13 @@ const Detail = ({ visible, vimeo, tab, title, setVisible }: DetailProps) => {
   return (
     <div className="wapper">
       <div className="popup">
-        <Vimeo video={vimeo} className="video" />
-        <p className="popup-tab">{tab}</p>
-        <p className="popup-title">{title}</p>
-
-        <div className="contact-us-btn">Contact us</div>
+        <div className="video">
+          <iframe src="https://www.youtube.com/embed/mqIAhObGzQk"></iframe>
+        </div>
+        <p className="popup-tab">Music</p>
+        <p className="popup-title">
+          Murad - Run (Inspired By Alan Walker) [NCN Release]
+        </p>
       </div>
       <div className="icon-close" onClick={() => setVisible(false)}>
         <img src={closeIcon} alt="" className="icon-image" />

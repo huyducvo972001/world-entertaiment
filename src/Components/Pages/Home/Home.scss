@@ -1,11 +1,10 @@
 .fp-right {
-  // opacity: 0 !important;
   position: fixed !important;
   right: 50px !important;
   transform: rotateY(180deg) !important;
   z-index: 10 !important;
   span {
-    background-color: #ffffff !important;
+    background-color: #cccc !important;
     width: 7px !important;
     height: 7px !important;
     margin-top: -30px !important;
@@ -26,57 +25,5 @@
       width: 30px !important;
       background-color: #ccee5d !important;
     }
-  }
-}
-
-@keyframes upToDown {
-  0% {
-    transform: translateY(-200%);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-@keyframes upToDownClose {
-  0% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(-200%);
-    opacity: 0.5;
-  }
-}
-
-@keyframes downToUp {
-  0% {
-    transform: translateY(200%);
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-@keyframes downToUpClose {
-  0% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(200%);
-    opacity: 0.5;
   }
 }

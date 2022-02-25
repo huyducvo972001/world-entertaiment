@@ -14,8 +14,8 @@ const MenuDrawer = ({ visible, showDrawer }: Props) => {
       title: "Home",
     },
     {
-      path: "/works",
-      title: "Works",
+      path: "/videos",
+      title: "Videos",
     },
     {
       path: "/teams",
@@ -39,7 +39,7 @@ const MenuDrawer = ({ visible, showDrawer }: Props) => {
           <Menu
             style={{
               width: 256,
-              backgroundColor: "#061440",
+              backgroundColor: "#000",
               fontSize: 39,
               color: "#fff",
             }}
@@ -71,18 +71,18 @@ const MenuDrawer = ({ visible, showDrawer }: Props) => {
         <div className="menu-line"></div>
         <div className="menu-footer">
           <p>
-            경기도 의왕시 이미로 40 인덕원 IT벨리 A동 411호
+            202 Phan Chu Trinh, Ward 13, Binh Thanh, Ho Chi Minh.
             <br />
-            Tel 02. 851. 2662/ Fax 02. 851. 2662
+            Tel 08. 765. 4321/ Fax 01. 234. 5678
           </p>
           <p> View Map</p>
           <p>
             Company. <br />
-            support@taejin.co.kr
+            worldentertaiment@gmail.com
           </p>
           <p>
             Technical support <br />
-            support@taejin.co.kr
+            worldentertaiment@gmail.com
           </p>
         </div>
       </Drawer>

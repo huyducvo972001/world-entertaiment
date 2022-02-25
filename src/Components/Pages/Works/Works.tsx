@@ -91,12 +91,12 @@ const Works = () => {
                 key={index}
                 className={`works-tabs-item ${
                   param === `?${tabItem.split(" ").join("%20")}` ||
-                  (path === "/works" && index === 0 && !param)
+                  (path === "/videos" && index === 0 && !param)
                     ? "active"
                     : ""
                 }`}
               >
-                <Link to={`/works?${tabItem}`}>{tabItem}</Link>
+                <Link to={`/videos?${tabItem}`}>{tabItem}</Link>
               </li>
             ))}
           </ul>
