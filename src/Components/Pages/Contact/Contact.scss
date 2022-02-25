@@ -1,0 +1,150 @@
+.contact {
+  &-title {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Montserrat-Bold";
+
+    animation-name: leftToRightContact;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+  &-content {
+    display: flex;
+    box-sizing: border-box;
+    height: 80vh;
+
+    &-map {
+      width: 50%;
+      animation-name: leftToRightContact2;
+      animation-duration: 1.2s;
+      animation-timing-function: ease-in;
+    }
+    &-info {
+      width: 50%;
+      background-color: black;
+      color: white;
+      padding: 120px;
+      position: relative;
+      animation-name: leftToRightContact2;
+      animation-duration: 1.4s;
+      animation-timing-function: ease-in;
+      &-left {
+        font-family: "NotoSansCJKkr-Light";
+        font-weight: bold;
+        animation-name: leftToRight;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        p {
+          margin-bottom: 0;
+          font-size: 16px;
+        }
+      }
+      &-right {
+        position: absolute;
+        right: 120px;
+        bottom: 120px;
+        text-align: right;
+        font-family: "Montserrat-Medium";
+        &-group {
+          label {
+            font-size: 12px;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes leftToRightContact {
+  0% {
+    transform: translateX(-3%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes leftToRightContact2 {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes leftToRightContact3 {
+  0% {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .contact-title {
+    font-size: 30px;
+    height: 15vh;
+  }
+  .contact-content {
+    display: block !important;
+    &-map {
+      width: 100%;
+      height: 40vh;
+    }
+    &-info {
+      width: 100%;
+      padding: 50px;
+      height: 40vh;
+      &-right {
+        right: 50px;
+        bottom: 50px;
+        text-align: right;
+        font-family: "Montserrat-Medium";
+        &-group {
+          label {
+            font-size: 12px;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .contact-content {
+    &-map {
+      height: 80vh;
+    }
+    &-info {
+      padding: 30px;
+      height: 80vh;
+      &-right {
+        right: 30px;
+        bottom: 30px;
+        text-align: right;
+        font-family: "Montserrat-Medium";
+        &-group {
+          label {
+            font-size: 12px;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}

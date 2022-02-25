@@ -1,0 +1,267 @@
+.introduction {
+  height: 100vh;
+  background-color: #1b0080;
+  position: relative;
+  overflow: hidden;
+  &-logo {
+    padding-top: 81px;
+    padding-left: 161px;
+    padding-right: 161px;
+    align-items: center;
+    display: flex;
+    color: #99dd6e;
+    justify-content: space-between;
+    font-family: "Montserrat-Medium";
+    font-size: 13px;
+  }
+  &-bg {
+    &-1 {
+      position: absolute;
+      bottom: -300px;
+      left: 0;
+    }
+    &-2 {
+      position: absolute;
+      top: -300px;
+      left: 651px;
+    }
+    &-3 {
+      position: absolute;
+      top: 154px;
+      left: 1199px;
+    }
+    &-4 {
+      position: absolute;
+      top: 310px;
+      left: 1369px;
+    }
+    &-5 {
+      position: absolute;
+      top: 489px;
+      right: 0;
+    }
+  }
+  &-text {
+    color: #99dd6e;
+    font-size: 200.5px;
+    position: absolute;
+    font-family: "Montserrat-Medium";
+    left: 145px;
+    width: 1100px;
+    p {
+      line-height: 230px;
+    }
+  }
+  &-footer {
+    position: absolute;
+    font-family: "Montserrat-Medium";
+    color: #99dd6e;
+    left: 145px;
+    bottom: 77px;
+  }
+}
+.introduction-animation {
+  .introduction-text {
+    animation-name: leftToRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+  }
+}
+.introduction-close {
+  .introduction-text {
+    animation-name: leftToRightClose;
+    animation-duration: 1.5s;
+  }
+}
+@keyframes leftToRightClose {
+  0% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .introduction-text {
+    animation-name: topToDown !important;
+  }
+  .introduction {
+    &-logo {
+      padding-top: 50px;
+      padding-left: 20px;
+      display: block;
+
+      span {
+        line-height: 50px;
+      }
+    }
+
+    &-text {
+      font-size: 60px;
+      width: 300px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      p {
+        line-height: 120px;
+      }
+    }
+
+    &-bg {
+      &-1 {
+        position: absolute;
+        bottom: -600px;
+        left: -100px;
+      }
+      &-5 {
+        position: absolute;
+        top: -250px;
+        right: -100px;
+      }
+    }
+
+    &-footer {
+      left: 30px;
+      bottom: 30px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .introduction-text {
+    animation-name: topToDown !important;
+  }
+  .introduction {
+    &-logo {
+      padding-top: 50px;
+      padding-left: 20px;
+
+      span {
+        line-height: 50px;
+      }
+    }
+
+    &-text {
+      font-size: 120px;
+      width: 500px;
+      top: 55%;
+      transform: translateY(-50%);
+      left: 10px;
+      p {
+        line-height: 220px;
+      }
+    }
+
+    &-bg {
+      &-1 {
+        bottom: 0;
+        width: 130px;
+        height: 400px;
+        right: 0px;
+      }
+      &-2 {
+        top: 0;
+        width: 100px;
+        height: 300px;
+        left: 400px;
+      }
+      &-3 {
+        top: 500px;
+        width: 130px;
+        height: 500px;
+        left: 600px;
+      }
+      &-5 {
+        top: 700px;
+        width: 100px;
+        height: 100%;
+        right: 0px;
+      }
+    }
+
+    &-footer {
+      left: 30px;
+      bottom: 30px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+  .introduction-text {
+    animation-name: topToDown !important;
+  }
+  .introduction {
+    &-logo {
+      padding-top: 50px;
+      padding-left: 50px;
+
+      span {
+        line-height: 50px;
+      }
+    }
+
+    &-bg {
+      &-1 {
+        position: absolute;
+        bottom: -390px;
+        left: -50px;
+      }
+      &-2 {
+        position: absolute;
+        top: -390px;
+        width: 150px;
+        height: 800px;
+        left: 651px;
+      }
+      &-3 {
+        opacity: 0;
+      }
+      &-4 {
+        position: absolute;
+        bottom: 50px;
+        width: 150px;
+        height: 600px;
+        left: 1000px;
+      }
+      &-5 {
+        position: absolute;
+        top: 489px;
+        width: 150px;
+        height: 800px;
+        right: 0;
+      }
+    }
+
+    &-text {
+      font-size: 140px;
+      width: 800px;
+      top: 55%;
+      transform: translateY(-50%);
+      left: 50px;
+      p {
+        line-height: 220px;
+      }
+    }
+
+    &-footer {
+      left: 80px;
+      bottom: 30px;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.teams {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: -159.5px;
+  color: #fff;
+
+  animation-name: loading;
+  animation-duration: 0.5s;
+
+  &-title {
+    padding-top: 97px;
+    font-size: 80px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 71px;
+  }
+  &-content {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-card {
+      width: 330px;
+      margin-top: 30px;
+    }
+    &-label {
+      font-size: 24px;
+      font-family: "Montserrat-Bold";
+    }
+    &-list {
+      list-style-type: none;
+      margin-top: 40px !important;
+      margin: 0;
+      padding: 0;
+      margin-left: 5px;
+      font-size: 12px;
+      font-family: "Montserrat-Medium";
+      li {
+        margin-top: 16px;
+      }
+    }
+  }
+  .teams-title {
+    animation-name: upToDown;
+    animation-duration: 1s;
+  }
+  .teams-content-label {
+    animation-name: leftToRight;
+    animation-duration: 1.5s;
+  }
+  .teams-list {
+    animation-name: upToDown;
+    animation-duration: 1.5s;
+  }
+}
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.container {
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 515px) {
+  .teams {
+    overflow: auto;
+    padding: 20px;
+    &-title {
+      padding-top: 50px;
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+    &-content {
+      width: 100%;
+      &-card {
+        width: 160px;
+      }
+      &-label {
+        font-size: 18px;
+        font-family: "Montserrat-Bold";
+      }
+
+      &-list {
+        li {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 515px) and (max-width: 1024px) {
+  .teams {
+    overflow: auto;
+    padding: 20px;
+    &-title {
+      padding-top: 50px;
+      font-size: 60px;
+      margin-bottom: 50px;
+    }
+    &-content {
+      width: 100%;
+      &-card {
+        width: 180px;
+      }
+      &-label {
+        font-size: 20px;
+        font-family: "Montserrat-Bold";
+      }
+    }
+  }
+}

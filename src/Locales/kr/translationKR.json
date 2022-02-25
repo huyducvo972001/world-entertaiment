@@ -1,0 +1,785 @@
+{
+  "introduction-text": "모든 것이 개념 큐브에 있습니다",
+  "introduction-footer": "컨셉큐브 회사소개",
+
+  "category": [
+    {
+      "id": 0,
+      "name": "게임 개발",
+      "text": "VFX, 소셜광고 디자인, 아트웍, 게임 개발 등 이미지와 디자인 제작에 필요한 모든 것 그리고 고객이 필요로 하는 기술과 결과물을 제공합니다. 또한 모션그래픽 및 자막, 종적 타이포그래피, 애니메이션  등 촬영 이미지와 CG를 합성하여 완성도 있는 결과물을 도출합니다."
+    },
+    {
+      "id": 1,
+      "name": "UI 디자인",
+      "text": "UI/UX, 브랜드/편집/그래픽/산업디자인 및 뉴미디어, 컴퍼니/브랜드/소셜/마케팅 디자인 유지보수 등 넓은 바운더리와 다양한 경험으로 많은 기업들과 브랜드 디자인을 진행하고 있습니다. 고객과 기업의 니즈를 맞추고 조율하여 최상의 결과물을 도출할 수 있게 합니다."
+    },
+    {
+      "id": 2,
+      "name": "SI",
+      "text": "개발 영역은 각 단계를 차근히 밟으며 안정적으로 증명을 거쳐 그 다양성과 안정성을 인정받고 있습니다. 트렌디하면서 안정성있는 개발을 위해 언제나 고민하고 노력하는 개발팀은 기업과의 협업 업무부터 자체 플랫폼 개발 등 다양한 업무 를 진행합니다."
+    },
+    {
+      "id": 3,
+      "name": "마케팅 게임",
+      "text": "다양한 사람들이 각자 원하는 문화라는 키워드로 소통하고 나누며 참여하는 것이 얼마나 큰 힘이 되는지, 사람을 이어주는 문화사업이 얼마나 많은 행복을 주는지 알고 있습니다. Concept cube는 뮤직, 세미나 등 다양한 문화 행사를 만들고 함께 나누려 노력합니다."
+    }
+  ],
+  "history": {
+    "year2021": {
+      "year": "2021",
+      "motion": "MOTION",
+      "content": [
+        {
+          "id": 0,
+          "text": "마녀 공장 TVC 제작"
+        },
+        {
+          "id": 1,
+          "text": "이자녹스 TVC 제작"
+        },
+        {
+          "id": 2,
+          "text": "Samsung Galaxy FAN Curator 영상 제작"
+        },
+        {
+          "id": 3,
+          "text": "Cha-pi CHINA TVC 7"
+        }
+      ]
+    },
+    "year2020": {
+      "year": "2020",
+      "motion": "MOTION",
+      "content": [
+        {
+          "id": 0,
+          "text": "LG Display Shocase 영상 제작"
+        },
+        {
+          "id": 1,
+          "text": "SSG 켐 페일 TVC 제작"
+        },
+        {
+          "id": 2,
+          "text": "Lineage 2M BI 영상 제작"
+        },
+        {
+          "id": 3,
+          "text": "Netflix TV Show \" Kingdom \" Title"
+        }
+      ]
+    },
+    "year2019": {
+      "year": "2019",
+      "motion": "MOTION",
+      "content": [
+        {
+          "id": 0,
+          "text": "실무 중심 의 교육 기관 \" 루크 아카데미 \" 설립"
+        },
+        {
+          "id": 1,
+          "text": "삼성 QLED TV 웰컴 비디오 제작"
+        },
+        {
+          "id": 2,
+          "text": "지 드래곤 \" Untitle \" M / V  제작"
+        },
+        {
+          "id": 3,
+          "text": "태양 X Lexus TVC 및  M / V 제작"
+        }
+      ]
+    },
+    "year2018": {
+      "year": "2019",
+      "motion": "",
+      "content": [
+        {
+          "id": 0,
+          "text": "루크 레이 티브 설립"
+        },
+        {
+          "id": 1,
+          "text": ""
+        },
+        {
+          "id": 2,
+          "text": ""
+        },
+        {
+          "id": 3,
+          "text": ""
+        }
+      ]
+    }
+  },
+  "footer": [
+    {
+      "id": 0,
+      "title": "협력 관계",
+      "text": "looc.tzlee@gmail.com"
+    },
+    {
+      "id": 1,
+      "title": "모병",
+      "text": "looc.tzlee@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "더 알아보기.",
+      "text": "Learn more about us >"
+    }
+  ],
+  "works": [
+    {
+      "id": 0,
+      "partners": "2021 Looc Showreel"
+    },
+    {
+      "id": 1,
+      "partners": "Opening Title | 고요의 바다"
+    },
+    {
+      "id": 2,
+      "partners": "Opening Title | 공작도시"
+    },
+    {
+      "id": 3,
+      "partners": "DIGILOCA | 티저"
+    },
+    {
+      "id": 4,
+      "partners": "코나 럭키카드 | 코나캐시떡상카드편"
+    },
+    {
+      "id": 5,
+      "partners": "KB | 리브 넥스트"
+    },
+    {
+      "id": 6,
+      "partners": "로카머니 | LOCAMONEY"
+    },
+    {
+      "id": 7,
+      "partners": "KLOUD | 클라우드 X BTS"
+    },
+    {
+      "id": 8,
+      "partners": "신한라이프 | Brand ID"
+    },
+    {
+      "id": 9,
+      "partners": "제주맥주 | DIVE INTO DIVERSITY"
+    },
+    {
+      "id": 10,
+      "partners": "바디프렌드 | 페이커"
+    },
+    {
+      "id": 11,
+      "partners": "삼성 | 갤럭시 워치 BIA"
+    },
+    {
+      "id": 12,
+      "partners": "엘지 Oled | ECO MINDED"
+    },
+    {
+      "id": 13,
+      "partners": "엘지 Oled | EYE COMFORT"
+    },
+    {
+      "id": 14,
+      "partners": "엘지 Oled | MISSION"
+    },
+    {
+      "id": 15,
+      "partners": "바디프렌드 | 박세리"
+    },
+    {
+      "id": 16,
+      "partners": "바디프렌드 | 손흥민"
+    },
+    {
+      "id": 17,
+      "partners": "정관장 | Everytime Global"
+    },
+    {
+      "id": 18,
+      "partners": "CJ온스타일 | 상품전문가 편"
+    },
+    {
+      "id": 19,
+      "partners": "CJ온스타일 | 라이브 편"
+    },
+    {
+      "id": 20,
+      "partners": "오에라 | 브랜드 스토리"
+    },
+    {
+      "id": 21,
+      "partners": "에블린 마스크 | 스타일링 컬러 마스크"
+    },
+    {
+      "id": 22,
+      "partners": "머스트잇"
+    },
+    {
+      "id": 23,
+      "partners": "LEE SUHYUN - ‘ALIEN’"
+    },
+    {
+      "id": 24,
+      "partners": "동행세일 | 2021 대한민국 동행세일"
+    },
+    {
+      "id": 25,
+      "partners": "Naver | 네이버 쇼핑라이브 1주년"
+    },
+    {
+      "id": 26,
+      "partners": "현대카드 | the Pink"
+    },
+    {
+      "id": 27,
+      "partners": "현대카드 | the Pink"
+    },
+    {
+      "id": 28,
+      "partners": "Dragon_Roi"
+    },
+    {
+      "id": 29,
+      "partners": "ROCA_Money"
+    },
+    {
+      "id": 30,
+      "partners": "BESPOKE_directer"
+    },
+    {
+      "id": 31,
+      "partners": "ICARUS | Teaser"
+    },
+    {
+      "id": 32,
+      "partners": "현대카드 | 쏘카 _ LOOC.ver"
+    },
+    {
+      "id": 33,
+      "partners": "카카오 | 이모티콘 플러스"
+    },
+    {
+      "id": 34,
+      "partners": "Kia Mohave | The matser | Dreams are young"
+    },
+    {
+      "id": 35,
+      "partners": "Samsung | CES 2021 Title"
+    },
+    {
+      "id": 36,
+      "partners": "LG Logo Animation 15s"
+    },
+    {
+      "id": 37,
+      "partners": "현대카드 | MX Boost 30s"
+    },
+    {
+      "id": 38,
+      "partners": "현대카드 | 현대카드 RIMA"
+    },
+    {
+      "id": 39,
+      "partners": "Melon | MMA"
+    },
+    {
+      "id": 40,
+      "partners": "365mc | Brand Film Dir ver."
+    },
+    {
+      "id": 41,
+      "partners": "설화수 | Sulwhasoo"
+    },
+    {
+      "id": 42,
+      "partners": "Yongfilm | 리더필름 ‘Yongfilm’"
+    },
+    {
+      "id": 43,
+      "partners": "Naver | 프로젝트 꽃 Interview teaser"
+    },
+    {
+      "id": 44,
+      "partners": "프리메라 | 알파인 베리 워터리 크림"
+    },
+    {
+      "id": 45,
+      "partners": "신한카드 늘테크"
+    },
+    {
+      "id": 46,
+      "partners": "닥터디퍼런트 lm Differen_엄정화"
+    },
+    {
+      "id": 47,
+      "partners": "닥터디퍼런트 lm Different_Teaser"
+    },
+    {
+      "id": 48,
+      "partners": "네이버 시리즈 Ratil_TVC_30s"
+    },
+    {
+      "id": 49,
+      "partners": "네이버 시리즈 Ranamoon_TVC_30s"
+    },
+    {
+      "id": 50,
+      "partners": "네이버 시리즈 Ranamoon_Digital"
+    },
+    {
+      "id": 51,
+      "partners": "JMsolution | 글로우 필 스파크림"
+    },
+    {
+      "id": 52,
+      "partners": "갤럭시 노트20 컬러 매칭 콜라보레이션"
+    },
+    {
+      "id": 53,
+      "partners": "Samsung All induction_Digital"
+    },
+    {
+      "id": 54,
+      "partners": "갤럭시 노트20 마음한줄"
+    },
+    {
+      "id": 55,
+      "partners": "SK매직 스스로 직수정수기"
+    },
+    {
+      "id": 56,
+      "partners": "IOPE 레티놀 엑스퍼트 01%"
+    },
+    {
+      "id": 57,
+      "partners": "클리오 킬커버 픽서 쿠션"
+    },
+    {
+      "id": 58,
+      "partners": "KT 스카이라이프"
+    },
+    {
+      "id": 59,
+      "partners": "비비고 프리미엄죽 | 죽이 맞다"
+    },
+    {
+      "id": 60,
+      "partners": "비비고 프리미엄죽 | 불낙죽편"
+    },
+    {
+      "id": 61,
+      "partners": "쌍갑포차 오프닝 타이틀"
+    },
+    {
+      "id": 62,
+      "partners": "나의 나라"
+    },
+    {
+      "id": 63,
+      "partners": "식빵 언니 #김연경 선수 아이돌 데뷔 링티"
+    },
+    {
+      "id": 64,
+      "partners": "클라우드 생 드래프트(feat.박서준)"
+    },
+    {
+      "id": 65,
+      "partners": "비비고 | 프리미엄 국물요리"
+    },
+    {
+      "id": 66,
+      "partners": "배달의 민족 | 독고배달이"
+    },
+    {
+      "id": 67,
+      "partners": "배달의민족 | 냥이배달이"
+    },
+    {
+      "id": 68,
+      "partners": "배달의민족 | 마이배달이"
+    },
+    {
+      "id": 69,
+      "partners": "삼성전자 멤버쉽 | Do you know 2"
+    },
+    {
+      "id": 70,
+      "partners": "삼성전자 멤버쉽 | Do you know 1"
+    },
+    {
+      "id": 71,
+      "partners": "LG | TONEFREE 여자편"
+    },
+    {
+      "id": 72,
+      "partners": "LG | TONEFREE 남자편"
+    },
+    {
+      "id": 73,
+      "partners": "2020 KB | 티저"
+    },
+    {
+      "id": 74,
+      "partners": "현대카드 | People"
+    },
+    {
+      "id": 75,
+      "partners": "대한민국 동행세일"
+    },
+    {
+      "id": 76,
+      "partners": "브롤스타즈 | 블랙핑크"
+    },
+    {
+      "id": 77,
+      "partners": "삼성 Health | Sleep"
+    },
+    {
+      "id": 78,
+      "partners": "삼성 Health | Meditation"
+    },
+    {
+      "id": 79,
+      "partners": "삼성 Health | Hometraining"
+    },
+    {
+      "id": 80,
+      "partners": "빅스비 | bixby"
+    },
+    {
+      "id": 81,
+      "partners": "현대카드 + 대한항공 | Take off"
+    },
+    {
+      "id": 82,
+      "partners": "현대카드 + 대한항공 | History"
+    },
+    {
+      "id": 83,
+      "partners": "15초 단편버전A"
+    },
+    {
+      "id": 84,
+      "partners": "2018 Kingdom Title"
+    },
+    {
+      "id": 85,
+      "partners": "2019 LYN TVC direct Full"
+    },
+    {
+      "id": 86,
+      "partners": "2019 shinsegae 45A"
+    },
+    {
+      "id": 87,
+      "partners": "2019 라이나 요리매연"
+    },
+    {
+      "id": 88,
+      "partners": "anssil Teaser IFdesign"
+    },
+    {
+      "id": 89,
+      "partners": "oilbank 2460 936"
+    },
+    {
+      "id": 90,
+      "partners": "CLIO 프리즘 에어 아이 팔레트"
+    },
+    {
+      "id": 91,
+      "partners": "2020 JM Solution 30A"
+    },
+    {
+      "id": 92,
+      "partners": "2020 Samsung Grande"
+    },
+    {
+      "id": 93,
+      "partners": "2020 JTBC TV 방송용 A 가치편"
+    },
+    {
+      "id": 94,
+      "partners": "2020 JTBC TV 방송용 B 정신편"
+    },
+    {
+      "id": 95,
+      "partners": "2020 JTBC TV 방송용 C 자세편"
+    },
+    {
+      "id": 96,
+      "partners": "Samsungcard All"
+    },
+    {
+      "id": 97,
+      "partners": "Domino Pizza"
+    },
+    {
+      "id": 98,
+      "partners": "2020 Galaxy A Quantum"
+    },
+    {
+      "id": 99,
+      "partners": "2020 Galaxy A Quantum 2"
+    },
+    {
+      "id": 100,
+      "partners": "GD 무제"
+    },
+    {
+      "id": 101,
+      "partners": "LEE HI-NO ONE"
+    },
+    {
+      "id": 102,
+      "partners": "你好吗我很好谢谢你呢-Chris Lee"
+    },
+    {
+      "id": 103,
+      "partners": "流行 TREND"
+    },
+    {
+      "id": 104,
+      "partners": "Park Ji Yoon-Beep"
+    },
+    {
+      "id": 105,
+      "partners": "PERFECT"
+    },
+    {
+      "id": 106,
+      "partners": "윤종신 - 그대 여전히 멋있는 사람"
+    },
+    {
+      "id": 107,
+      "partners": "렉서스 X 태양 - SO Good"
+    },
+    {
+      "id": 108,
+      "partners": "박지윤 - Yoo Hoo"
+    },
+    {
+      "id": 109,
+      "partners": "Priest Title"
+    },
+    {
+      "id": 110,
+      "partners": "Onmyoji - New SP Shikigami Demoniac Shuten Doji"
+    },
+    {
+      "id": 111,
+      "partners": "Samsung Intro No Frame"
+    },
+    {
+      "id": 112,
+      "partners": "LiivM Launching 30"
+    },
+    {
+      "id": 113,
+      "partners": "[비맥스 메타정] 정신피로 편"
+    },
+    {
+      "id": 114,
+      "partners": "Fomula-E"
+    },
+    {
+      "id": 115,
+      "partners": "All New Galaxy A"
+    },
+    {
+      "id": 116,
+      "partners": "New K5 - 티져"
+    },
+    {
+      "id": 117,
+      "partners": "삼성 갤럭시 - Wallpaper film"
+    },
+    {
+      "id": 118,
+      "partners": "WWW - 타이틀"
+    },
+    {
+      "id": 119,
+      "partners": "삼성 블록체인"
+    },
+    {
+      "id": 120,
+      "partners": "SK Holdings - JJAK"
+    },
+    {
+      "id": 121,
+      "partners": "SK Holdings - UP"
+    },
+    {
+      "id": 122,
+      "partners": "Naver Series - Prenup"
+    },
+    {
+      "id": 123,
+      "partners": "Naver Series - Goldenhour"
+    },
+    {
+      "id": 124,
+      "partners": "Manyo"
+    },
+    {
+      "id": 125,
+      "partners": "롯데 케미칼"
+    },
+    {
+      "id": 126,
+      "partners": "Hyundaicard DIVE"
+    },
+    {
+      "id": 127,
+      "partners": "Chapi"
+    },
+    {
+      "id": 128,
+      "partners": "Soofe'e"
+    },
+    {
+      "id": 129,
+      "partners": "Lineage2 M BI"
+    },
+    {
+      "id": 130,
+      "partners": "Blade & Soul"
+    },
+    {
+      "id": 131,
+      "partners": "뷰티인사이드 - 엔딩 타이틀"
+    },
+    {
+      "id": 132,
+      "partners": "설국열차 - 타이틀"
+    },
+    {
+      "id": 133,
+      "partners": "Lost Kingdom"
+    },
+    {
+      "id": 134,
+      "partners": "LG Optimus G"
+    },
+    {
+      "id": 135,
+      "partners": "CGV-ELEVATOR"
+    },
+    {
+      "id": 136,
+      "partners": "All NEW CGV"
+    },
+    {
+      "id": 137,
+      "partners": "Alien - LEE SUHYUN | Project Guide"
+    },
+    {
+      "id": 138,
+      "partners": "Bespoke | Project Guide"
+    },
+    {
+      "id": 139,
+      "partners": "Better Normal for All | Project Guide"
+    },
+    {
+      "id": 140,
+      "partners": "What Happened to 30's | Porject Guide"
+    },
+    {
+      "id": 141,
+      "partners": "Hyundaicard Rima | Porject Guide"
+    },
+    {
+      "id": 142,
+      "partners": "Milke Shake | Project Guide"
+    },
+    {
+      "id": 143,
+      "partners": "Priest | Project Guide"
+    },
+    {
+      "id": 144,
+      "partners": "KT Skylife | Project Guide"
+    },
+    {
+      "id": 145,
+      "partners": "Dark Circle Pictures | Project Guide"
+    },
+    {
+      "id": 146,
+      "partners": "Timing Alice | Project Guide"
+    },
+    {
+      "id": 147,
+      "partners": "Timing Alice | Project Guide"
+    },
+    {
+      "id": 148,
+      "partners": "Lyn - The Lightbringer | Project Guide"
+    },
+    {
+      "id": 149,
+      "partners": "Victor - 비극의 탄생 | Project Guide"
+    },
+    {
+      "id": 150,
+      "partners": "2020 Looc Showreel"
+    }
+  ],
+  "teams": [
+    {
+      "id": 0,
+      "title": "운동",
+      "content": ["시네마", "TVC", "바이럴", "쇼", "드라마"]
+    },
+    {
+      "id": 1,
+      "title": "설계",
+      "content": ["브랜드 디자인", "모션 디자인", "소셜 디자인"]
+    },
+    {
+      "id": 2,
+      "title": "소리",
+      "content": ["Looc.Music", "음악 프로듀싱", "뮤직 스튜디오"]
+    },
+    {
+      "id": 3,
+      "title": "학원",
+      "content": ["Looc.Music.Academy", "학술 세미나"]
+    },
+    {
+      "id": 4,
+      "title": "계략",
+      "content": ["미니 게임", "가상 R&D"]
+    },
+    {
+      "id": 5,
+      "title": "플랫폼",
+      "content": ["비디오 몬스터", "IMG 몬스터", "모션 트렌드", "삼성/SI"]
+    },
+    {
+      "id": 6,
+      "title": "개발",
+      "content": ["서버리스", "플랫폼", "웹"]
+    },
+    {
+      "id": 7,
+      "title": "가게",
+      "content": ["스페이스 룩", "마호 테이블", "저금통", "휴이온"]
+    }
+  ],
+  "contact1": "서울특별시 강남구",
+  "contact2": "도산대로 8길 17-10 1F",
+  "contact3": "T 02 543 4983"
+}

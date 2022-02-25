@@ -1,0 +1,86 @@
+.slogan {
+  background-color: #1b0080 !important;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  &-bg {
+    position: absolute;
+    color: #99dd6e;
+    font-family: "Montserrat-SemiBold";
+    top: 520px;
+    font-size: 281px;
+    width: 1400px;
+    line-height: 240px;
+
+    p {
+      margin-bottom: -200px;
+      transform: translateY(-55%);
+    }
+  }
+
+  &-content {
+    position: relative;
+    top: 50%;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 526px;
+  }
+  .slick-arrow {
+    opacity: 0;
+  }
+}
+.slogan-animation {
+  .slogan-bg {
+    animation-name: upToDown;
+    animation-duration: 1.5s;
+  }
+}
+
+.slogan-close {
+  .slogan-bg {
+    animation-name: upToDownClose;
+    animation-duration: 1s;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .slogan {
+    &-bg {
+      font-size: 120px;
+      line-height: 140px;
+      top: 450px;
+      width: 400px;
+    }
+
+    &-content {
+      width: 300px;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 900px) {
+  .slogan {
+    &-bg {
+      font-size: 200px;
+      line-height: 220px;
+      top: 650px;
+      width: 800px;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .slogan {
+    &-bg {
+      font-size: 200px;
+      line-height: 250px;
+      top: 750px;
+      width: 800px;
+    }
+  }
+}
