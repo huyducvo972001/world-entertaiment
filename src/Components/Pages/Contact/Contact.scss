@@ -6,10 +6,6 @@
     align-items: center;
     font-size: 40px;
     font-family: "Montserrat-Bold";
-
-    animation-name: leftToRightContact;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
   }
   &-content {
     display: flex;
@@ -18,9 +14,6 @@
 
     &-map {
       width: 50%;
-      animation-name: leftToRightContact2;
-      animation-duration: 1.2s;
-      animation-timing-function: ease-in;
     }
     &-info {
       width: 50%;
@@ -28,15 +21,11 @@
       color: white;
       padding: 120px;
       position: relative;
-      animation-name: leftToRightContact2;
-      animation-duration: 1.4s;
-      animation-timing-function: ease-in;
+
       &-left {
-        font-family: "NotoSansCJKkr-Light";
+        font-family: "Montserrat-Light";
         font-weight: bold;
-        animation-name: leftToRight;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
+
         p {
           margin-bottom: 0;
           font-size: 16px;

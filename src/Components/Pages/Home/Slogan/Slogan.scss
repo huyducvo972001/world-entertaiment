@@ -18,20 +18,6 @@
     opacity: 0;
   }
 }
-.slogan-animation {
-  .slogan-bg {
-    animation-name: upToDown;
-    animation-duration: 1.5s;
-  }
-}
-
-.slogan-close {
-  .slogan-bg {
-    animation-name: upToDownClose;
-    animation-duration: 1s;
-  }
-}
-
 @media only screen and (max-width: 740px) {
   .slogan {
     &-bg {

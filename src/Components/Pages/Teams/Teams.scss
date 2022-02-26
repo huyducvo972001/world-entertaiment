@@ -1,12 +1,8 @@
 .teams {
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: -159.5px;
+  background-size: cover;
   color: #fff;
-
-  animation-name: loading;
-  animation-duration: 0.5s;
 
   &-title {
     padding-top: 97px;
@@ -41,18 +37,6 @@
         margin-top: 16px;
       }
     }
-  }
-  .teams-title {
-    animation-name: upToDown;
-    animation-duration: 1s;
-  }
-  .teams-content-label {
-    animation-name: leftToRight;
-    animation-duration: 1.5s;
-  }
-  .teams-list {
-    animation-name: upToDown;
-    animation-duration: 1.5s;
   }
 }
 @keyframes loading {

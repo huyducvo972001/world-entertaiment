@@ -47,195 +47,79 @@
   }
 }
 
-@keyframes leftToRightClose {
-  0% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-}
-@keyframes leftToRight {
-  0% {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
-
 @media only screen and (max-width: 740px) {
-  .introduction-text {
-    animation-name: topToDown !important;
-  }
   .introduction {
-    &-logo {
-      padding-top: 50px;
-      padding-left: 20px;
-      display: block;
-
-      span {
-        line-height: 50px;
-      }
-    }
-
     &-text {
       font-size: 60px;
       width: 300px;
-      top: 50%;
+      top: 40%;
       transform: translateY(-50%);
       left: 10px;
       p {
-        line-height: 120px;
+        line-height: 80px;
       }
     }
-
-    &-bg {
-      &-1 {
-        position: absolute;
-        bottom: -600px;
-        left: -100px;
-      }
-      &-5 {
-        position: absolute;
-        top: -250px;
-        right: -100px;
-      }
+    &-time {
+      font-size: 24px;
+      left: 20px;
+      bottom: 250px;
     }
 
     &-footer {
-      left: 30px;
-      bottom: 30px;
-      font-size: 12px;
+      left: 10px;
+      bottom: 100px;
+      font-size: 40px;
     }
   }
 }
 
 @media only screen and (min-width: 740px) and (max-width: 1024px) {
-  .introduction-text {
-    animation-name: topToDown !important;
-  }
   .introduction {
-    &-logo {
-      padding-top: 50px;
-      padding-left: 20px;
-
-      span {
-        line-height: 50px;
-      }
-    }
-
     &-text {
-      font-size: 120px;
+      font-size: 80px;
       width: 500px;
-      top: 55%;
+      top: 45%;
       transform: translateY(-50%);
       left: 10px;
       p {
-        line-height: 220px;
+        line-height: 13 0px;
       }
     }
-
-    &-bg {
-      &-1 {
-        bottom: 0;
-        width: 130px;
-        height: 400px;
-        right: 0px;
-      }
-      &-2 {
-        top: 0;
-        width: 100px;
-        height: 300px;
-        left: 400px;
-      }
-      &-3 {
-        top: 500px;
-        width: 130px;
-        height: 500px;
-        left: 600px;
-      }
-      &-5 {
-        top: 700px;
-        width: 100px;
-        height: 100%;
-        right: 0px;
-      }
+    &-time {
+      font-size: 25px;
+      left: 25px;
+      bottom: 200px;
     }
 
     &-footer {
-      left: 30px;
+      left: 10px;
       bottom: 30px;
-      font-size: 12px;
+      font-size: 60px;
     }
   }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
-  .introduction-text {
-    animation-name: topToDown !important;
-  }
   .introduction {
-    &-logo {
-      padding-top: 50px;
-      padding-left: 50px;
-
-      span {
-        line-height: 50px;
-      }
-    }
-
-    &-bg {
-      &-1 {
-        position: absolute;
-        bottom: -390px;
-        left: -50px;
-      }
-      &-2 {
-        position: absolute;
-        top: -390px;
-        width: 150px;
-        height: 800px;
-        left: 651px;
-      }
-      &-3 {
-        opacity: 0;
-      }
-      &-4 {
-        position: absolute;
-        bottom: 50px;
-        width: 150px;
-        height: 600px;
-        left: 1000px;
-      }
-      &-5 {
-        position: absolute;
-        top: 489px;
-        width: 150px;
-        height: 800px;
-        right: 0;
-      }
-    }
-
     &-text {
-      font-size: 140px;
+      font-size: 10 0px;
       width: 800px;
-      top: 55%;
+      top: 45%;
       transform: translateY(-50%);
       left: 50px;
       p {
-        line-height: 220px;
+        line-height: 150px;
       }
     }
-
+    &-time {
+      font-size: 30px;
+      left: 60px;
+      bottom: 200px;
+    }
     &-footer {
-      left: 80px;
+      left: 50px;
       bottom: 30px;
-      font-size: 12px;
+      font-size: 70px;
     }
   }
 }

@@ -5,25 +5,14 @@ import Card from "./Card/Card";
 import Detail from "./Detail/Detail";
 import { worksData } from "./worksData";
 import "./Works.scss";
-import logo from "./Asset/logo.png";
 import { useLocation } from "react-router-dom";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useTranslation } from "react-i18next";
 import { CaretDownOutlined } from "@ant-design/icons";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const tabs = [
-  "ALL",
-  "SHOWREEL",
-  "COMMERCIAL",
-  "MOTION",
-  "OPENING TITLE",
-  "MV",
-  "ARTWORK",
-  "DESIGN",
-];
+const tabs = ["ALL", "MUSIC", "GAME SHOW", "SHORT FILM", "MV"];
 
 const Works = () => {
   const [vimeo, setVimeo] = useState<any>("");
@@ -31,8 +20,6 @@ const Works = () => {
   const [title, setTitle] = useState<any>("");
   const [tabOfWork, setTabOfWork] = useState("");
   const [works, setWorksData] = useState(worksData);
-  const { t } = useTranslation();
-  const data = t("works", { returnObjects: true }) as any;
 
   const param = useLocation().search;
   const path = useLocation().pathname;
@@ -71,11 +58,6 @@ const Works = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [param]);
-
-  for (let i in data) {
-    const n = Number(i);
-    worksData[n].partners = data[n].partners;
-  }
 
   return (
     <div className="works">
@@ -128,12 +110,6 @@ const Works = () => {
       />
       <div className="box-footer">
         <ul className="footer">
-          <li>
-            <img src={logo} alt="" />
-          </li>
-          <li>
-            <a href="">Vimeo</a>
-          </li>
           <li>
             <a href="">Youtube</a>
           </li>

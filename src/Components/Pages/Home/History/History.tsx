@@ -172,7 +172,7 @@ const History = () => {
     className: "center",
     infinite: false,
     // centerPadding: "60px",
-    slidesToShow: slidesToShow,
+    slidesToShow: Number(slidesToShow),
     swipeToSlide: true,
     afterChange: function (index: any) {
       console.log(

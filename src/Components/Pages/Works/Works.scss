@@ -95,6 +95,18 @@
     width: 100%;
     .menu-tabs {
       display: block;
+      &:hover {
+        color: #ff9c3a;
+      }
+      &:hover > .works-tabs {
+        display: flex !important;
+        width: 250px;
+        flex-wrap: wrap;
+        li {
+          width: 125px;
+          margin-top: 10px;
+        }
+      }
     }
     &-title {
       margin-left: 20px;
@@ -112,18 +124,6 @@
 
     &-tabs-select {
       margin-left: 20px;
-      &:hover {
-        color: #ff9c3a;
-      }
-      &:hover > .works-tabs {
-        display: flex !important;
-        width: 250px;
-        flex-wrap: wrap;
-        li {
-          width: 125px;
-          margin-top: 10px;
-        }
-      }
     }
     li:not(:first-child) {
       margin-left: 0;
