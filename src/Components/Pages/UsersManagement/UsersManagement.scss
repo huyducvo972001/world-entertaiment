@@ -1,0 +1,4 @@
+@import "../../../App.scss";
+.user_modal {
+  @extend %modal;
+}

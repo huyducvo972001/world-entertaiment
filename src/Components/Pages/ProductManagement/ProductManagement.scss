@@ -1,0 +1,9 @@
+@import "../../../App.scss";
+
+.products_modal {
+  @extend %modal;
+  .ant-select-selector,
+  .ant-picker {
+    border-radius: 10px !important;
+  }
+}
